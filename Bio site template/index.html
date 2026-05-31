@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#131313">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>your_username_here</title>     <!-- Change this to whatever you want the websites title to be! -->
+    <link rel="icon" href="assets/images/fanta.ico" type="image/x-icon"> <!-- Use an online png to ico tool and put the path to the .ico here to change the site logo! -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="music-player">
+    <p id="track">♪ idle: nothing playing</p>
+
+    <div class="controls">
+        <button id="prevBtn">←</button>
+        <button id="playBtn">▶</button>
+        <button id="pauseBtn">||</button>
+        <button id="nextBtn">→</button>
+    </div>
+
+    <div class="volume-container">
+        <span>VOLUME</span>
+        <input type="range" id="volumeSlider" min="0" max="1" step="0.01" value="0.5">
+    </div>
+
+    <audio id="audio"></audio>
+</div>
+    <div class="profile-pic" id="pfpButton">
+        <img src="assets/images/pfp.png" alt="pfp"> <!-- Put the path to your pfp here! like assets/images/pfp.png -->
+    </div>
+    <div class="bio" id="contentBox">
+
+    <div id="aboutPage">
+        <h1>@your_username_here</h1> <!-- Put your username here! -->
+
+        <h3>About Me!</h3>
+
+        <p> Welcome to fantas bio site template!</p>
+        <p> I made this so other people can make their own sites just like mine!</p>
+        <p> When you see green text like "<-- Hello! -->" Follow what it says!</p>
+
+        <a href="https://discord.com/users/Your_Discord_ID" target="_blank" rel="noopener noreferrer">Discord ; @your_username_here</a>
+        <p></p>
+        <a href="https://www.tiktok.com/@your_username_here" target="_blank" rel="noopener noreferrer">Tiktok ; @your_username_here</a>
+        <p></p>
+        <a href="https://github.com/your_username_here" target="_blank" rel="noopener noreferrer">Github ; @your_username_here</a>
+    </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
